@@ -1,3 +1,26 @@
 h1{
 	color: blue;
 }
+
+.cottage{
+	width: 400px;
+	position: relative;
+}
+
+#cottage-1{
+	left: 190px;
+}
+
+#cottage-2{
+	left: 180px;
+	top: 60px;
+}
+
+#cottage-3{
+	left: 50px;
+	top: 0px;
+}
+
+#cottage-4{
+	left: 275px;
+}

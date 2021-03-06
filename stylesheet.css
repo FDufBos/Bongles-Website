@@ -51,3 +51,13 @@ p{
 	left: 20px;
 	top: 10px;
 }
+
+#footer ul{
+	list-style: none;
+}
+#footer li{
+	display: inline;
+	font-family: 'Patrick Hand', cursive;
+	padding: 10px;
+	font-size: 1.3em;
+}

@@ -3,24 +3,42 @@ h1{
 }
 
 .cottage{
-	width: 400px;
+	width: 200px;
 	position: relative;
 }
 
-#cottage-1{
-	left: 190px;
+.grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 300px 200px 200px 200px 1fr;
+	  gap: 0px 0px;
+	  grid-template-areas:
+		". site-title site-title site-title site-title ."
+		". . bongles-house horse-house . ."
+		". dog-house fountain . . ."
+		". . . . . ."
+		". . . . . .";
+	}
+	
+	.site-title { grid-area: site-title; }
+	
+	.bongles-house { grid-area: bongles-house; }
+	
+	.horse-house { grid-area: horse-house; }
+	
+	.dog-house { grid-area: dog-house; }
+	
+	.fountain { grid-area: fountain; }
+	
+#fountain{
+	left: 35px;
+	bottom: 40px;
 }
 
-#cottage-2{
-	left: 180px;
-	top: 60px;
+#bongles-cottage{
+	left: -40px;
 }
-
-#cottage-3{
-	left: 50px;
-	top: 0px;
-}
-
-#cottage-4{
-	left: 275px;
+#horse-cottage{
+	left: 20px;
+	top: 10px;
 }

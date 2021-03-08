@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 h1{
-	color: blue;
+	color: color(srgb 0.945 0.742 0.289);
+	font-family: 'Patrick Hand', sans-serif;
+	font-size: 10em;
+	line-height: 1em;
 	}
 
 p{

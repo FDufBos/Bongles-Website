@@ -76,6 +76,7 @@ a:hover {
 .flower{
 	position: relative;
 	width: 80px;
+	left: 
 }
 #fountain{
 	left: 35px;
@@ -91,24 +92,24 @@ a:hover {
 }
 
 #flower-2{
-	left: 120px;
+	left: 150px;
 	top: -25px;
 }
 
 #flower-3{
-	left: 55px;
+	left: 100px;
 	top: 40px;
 	z-index: 2;
 	transform: rotate(20deg);
 }
 
 #flower-4{
-	left: -30px;
+	left: 30px;
 	top: 60px;
 }
 
 #flower-5{
-	left: 110px;
+	left: 150px;
 	top: 80px;
 	z-index: 1;
 	transform: rotate(40deg);

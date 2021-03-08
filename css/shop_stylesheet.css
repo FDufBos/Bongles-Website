@@ -1,0 +1,42 @@
+.grid-container-shop {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 200px 80px 300px 300px 300px 300px;
+	  gap: 10px 10px;
+	  grid-template-areas:
+		". site-title site-title site-title ."
+		". Navbar Navbar Navbar ."
+		". Product-1 Product-2 Product-3 ."
+		". Product-4 . . ."
+		". . . . ."
+		". . . . .";
+	}
+	
+	.site-title { grid-area: site-title; }
+	
+	.navbar { grid-area: Navbar; }
+	
+	.Product-1 { grid-area: Product-1; }
+	
+	.Product-2 { grid-area: Product-2; }
+	
+	.Product-3 { grid-area: Product-3; }
+	
+	.Product-4 { grid-area: Product-4; }
+	
+
+h1{
+	color: blue;
+	font-size: 6em;
+}
+
+.navbar ul {
+	list-style: none;
+	text-decoration: none;
+}
+.navbar li {
+	display: inline;
+	font-family: 'Patrick Hand', cursive;
+	padding: 10px;
+	font-size: 1.3em;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+h1 {
+	color: #ffb703;
+	font-family: 'Patrick Hand', sans-serif;
+	font-size: 10em;
+	line-height: .95em;
+}
+p {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 24px;
+}
+.cottage {
+	width: 200px;
+	position: relative;
+}
+a {
+	background: linear-gradient( to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	background: none;
+	color: color(srgb 0.479 0.543 1);
+	letter-spacing: 1px;
+	line-height: .75em;
+}
+
+.grid-container {
+	  display: grid;
+	  justify-items: center;
+	  align-items: center;
+	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	  grid-template-rows: 300px 200px 200px 200px 1fr;
+	  gap: 0px 0px;
+	  grid-template-areas:
+		". site-title site-title site-title site-title ."
+		". . bongles-house horse-house . ."
+		". dog-house fountain flower . ."
+		". . . . . ."
+		". . . . . .";
+	}
+	
+	.site-title { grid-area: site-title; }
+	
+	.bongles-house { grid-area: bongles-house; }
+	
+	.horse-house { grid-area: horse-house; }
+	
+	.dog-house { grid-area: dog-house; }
+	
+	.fountain { grid-area: fountain; }
+	
+	.flower-1 { grid-area: flower; }
+	
+	.flower-2 { grid-area: flower; }
+	
+	.flower-3 { grid-area: flower; }
+	
+	.flower-4 { grid-area: flower; }
+	
+	.flower-5 { grid-area: flower; }
+	
+.flower {
+	position: relative;
+	width: 80px;
+	left:
+}
+
+#fountain {
+	left: 35px;
+	bottom: 40px;
+	z-index: 2;
+}
+#bongles-cottage {
+	left: -40px;
+	z-index: 1;
+}
+
+​ #horse-cottage {
+	left: 20px;
+	top: 10px;
+}
+#flower-2 {
+	left: 150px;
+	top: -25px;
+}
+#flower-3 {
+	left: 100px;
+	top: 40px;
+	z-index: 2;
+	transform: rotate(20deg);
+}
+#flower-4 {
+	left: 30px;
+	top: 60px;
+}
+#flower-5 {
+	left: 150px;
+	top: 80px;
+	z-index: 1;
+	transform: rotate(40deg);
+}
+#footer ul {
+	list-style: none;
+}
+#footer li {
+	display: inline;
+	font-family: 'Patrick Hand', cursive;
+	padding: 10px;
+	font-size: 1.3em;
+}

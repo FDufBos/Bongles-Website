@@ -25,7 +25,6 @@ a {
 a:hover {
 	background: none;
 	color: color(srgb 0.479 0.543 1);
-	font-size: 1.3em;
 	letter-spacing: 1px;
 	line-height: .75em;
 }

@@ -1,18 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 h1{
 	color: blue;
-}
+	}
 
 p{
 	font-family: 'Patrick Hand', cursive;
 	font-size: 24px;
-}
+	}
 
 .cottage{
 	width: 200px;
 	position: relative;
-}
+	}
+
+a {
+	  background:
+		 linear-gradient(
+		   to bottom, var(--mainColor) 0%,
+		   var(--mainColor) 100%
+		 );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 4px;
+	  color: #000000;
+	  text-decoration: underline;
+	}
+
+a:hover {
+	  background: none;
+	  color: color(srgb 0.479 0.543 1);
+	  font-size: 1.3em;
+	  letter-spacing: 1px;
+	  line-height: .75em;
+	}
+
 
 .grid-container {
 	  display: grid;
@@ -24,7 +48,7 @@ p{
 	  grid-template-areas:
 		". site-title site-title site-title site-title ."
 		". . bongles-house horse-house . ."
-		". dog-house fountain . . ."
+		". dog-house fountain flower . ."
 		". . . . . ."
 		". . . . . .";
 	}
@@ -39,6 +63,20 @@ p{
 	
 	.fountain { grid-area: fountain; }
 	
+	.flower-1 { grid-area: flower; }
+	
+	.flower-2 { grid-area: flower; }
+	
+	.flower-3 { grid-area: flower; }
+	
+	.flower-4 { grid-area: flower; }
+	
+	.flower-5 { grid-area: flower; }
+	
+.flower{
+	position: relative;
+	width: 80px;
+}
 #fountain{
 	left: 35px;
 	bottom: 40px;
@@ -51,6 +89,31 @@ p{
 	left: 20px;
 	top: 10px;
 }
+
+#flower-2{
+	left: 120px;
+	top: -25px;
+}
+
+#flower-3{
+	left: 55px;
+	top: 40px;
+	z-index: 2;
+	transform: rotate(20deg);
+}
+
+#flower-4{
+	left: -30px;
+	top: 60px;
+}
+
+#flower-5{
+	left: 110px;
+	top: 80px;
+	z-index: 1;
+	transform: rotate(40deg);
+}
+
 
 #footer ul{
 	list-style: none;

@@ -1,33 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 .grid-container-shop {
 	  display: grid;
 	  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	  grid-template-rows: 200px 80px 300px 300px 300px 300px;
+	  grid-template-rows: 185px .3fr;
 	  gap: 10px 10px;
 	  grid-template-areas:
 		". site-title site-title site-title ."
 		". Navbar Navbar Navbar ."
-		". Product-1 Product-2 Product-3 ."
-		". Product-4 . . ."
-		". . . . ."
-		". . . . .";
 	}
 	
 	.site-title { grid-area: site-title; }
 	
 	.navbar { grid-area: Navbar; }
-	
-	.Product-1 { grid-area: Product-1; }
-	
-	.Product-2 { grid-area: Product-2; }
-	
-	.Product-3 { grid-area: Product-3; }
-	
-	.Product-4 { grid-area: Product-4; }
-	
 
 h1{
 	color: blue;
 	font-size: 6em;
+}
+
+h3{
+
+}
+
+main{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20px;
+	flex-flow: row wrap;
 }
 
 .navbar ul {
@@ -39,4 +42,34 @@ h1{
 	font-family: 'Patrick Hand', cursive;
 	padding: 10px;
 	font-size: 1.3em;
+}
+
+.item{
+	margin: 20px;
+}
+
+.item-image{
+	width: 300px;
+}
+
+.item-info{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Patrick Hand', sans-serif;
+	font-size: 1.5em;
+	top: 8px;
+}
+
+.item-title{
+	position: relative;
+	text-align: left;
+}
+
+#venmo-icon{
+	position: relative;
+	height: 1em;
+	margin-left: auto;
+	top: 5px;
+	right: 5px;
 }

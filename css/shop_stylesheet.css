@@ -6,24 +6,15 @@
 	  grid-template-rows: 185px .3fr;
 	  gap: 10px 10px;
 	  grid-template-areas:
-		". site-title site-title site-title ."
+		". page-title page-title page-title ."
 		". Navbar Navbar Navbar ."
 	}
 	
-	.site-title { grid-area: site-title; }
+	.page-title { grid-area: page-title; }
 	
 	.navbar { grid-area: Navbar; }
 
-h1{
-	color: blue;
-	font-size: 6em;
-}
-
-h3{
-
-}
-
-main{
+.shop-container{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -32,18 +23,6 @@ main{
 	margin: 20px;
 	flex-flow: row wrap;
 }
-
-.navbar ul {
-	list-style: none;
-	text-decoration: none;
-}
-.navbar li {
-	display: inline;
-	font-family: 'Patrick Hand', cursive;
-	padding: 10px;
-	font-size: 1.3em;
-}
-
 .item{
 	margin: 20px;
 }

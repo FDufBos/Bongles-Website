@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-html, body {
-	max-width: 100%;
-	overflow-x: hidden;
-}
+@media screen and (max-width: 400px) {
+	  .site-title{
+		 position: relative;
+		 right: 60px;
+	  }
+	  
+	  footer{
+		  position: relative;
+		  left: 150px;
+		  bottom: 50px;
+		  font-size: 1.5em;
+		  line-height: 1.4em;
+	  }
+	  
+	  #footer li{
+		  display: inherit;
+	  }
+	}
 
 p {
 	font-family: 'Patrick Hand', sans-serif;
@@ -147,22 +161,3 @@ a:hover {
 	padding: 10px;
 	font-size: 1.3em;
 }
-
-@media screen and (max-width: 400px) {
-	  .site-title{
-		 position: relative;
-		 right: 60px;
-	  }
-	  
-	  footer{
-		  position: relative;
-		  left: 150px;
-		  bottom: 50px;
-		  font-size: 1.5em;
-		  line-height: 1.4em;
-	  }
-	  
-	  #footer li{
-		  display: inherit;
-	  }
-	}

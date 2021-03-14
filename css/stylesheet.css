@@ -56,7 +56,7 @@ a:hover {
 	grid-template-areas:
 		". . site-title site-title . ."
 		". . bongles-house horse-house . ."
-		". dog-house fountain flower . ."
+		" . dog-house fountain flower . ."
 		". . . . . ."
 		". . . . . .";
 	}
@@ -119,7 +119,7 @@ a:hover {
 }
 
 #fountain {
-	left: 50px;
+	left: 80px;
 	bottom: 40px;
 	z-index: 2;
 }
